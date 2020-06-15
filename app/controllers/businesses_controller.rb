@@ -10,7 +10,8 @@ class BusinessesController < ApplicationController
     json_response(@business)
   end
 
-  def create @business = Business.create!(business_params)
+  def create 
+    @businesses = Business.create!(business_params)
     json_response(@business)
   end
 
@@ -30,6 +31,6 @@ class BusinessesController < ApplicationController
   end
 
   def business_params
-    params.permit()
+    params.permit(:name, :address, :link, :category)
   end
 end
