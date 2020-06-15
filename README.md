@@ -12,7 +12,7 @@ This API will serve content to our Epicodus Ruby Team Week App.  It is a collect
 |-------------------------|-------------------------------|
 | GET requests            |                               |
 | get all businesses      | /businesses                   |
-| get individual business | /businesses/[business_id_here |
+| get individual business | /businesses/[business_id_here]|
 | get all food/bev        | /businesses/food              |
 | get all beauty          | /businesses/beauty            |
 | get all healthcare      | /businesses/health            |
