@@ -1,7 +1,7 @@
 class BusinessesController < ApplicationController
 
   def index
-    @businesses = Business.all
+    @businesses = Business.all.alpha
     json_response(@businesses)
   end
 
@@ -26,32 +26,32 @@ class BusinessesController < ApplicationController
   end
 
   def food_bev
-    @businesses = Business.food_bev
+    @businesses = Business.food_bev.alpha
     json_response(@businesses)
   end
 
   def beauty
-    @businesses = Business.beauty
+    @businesses = Business.beauty.alpha
     json_response(@businesses)
   end
 
   def health
-    @businesses = Business.healthcare
+    @businesses = Business.healthcare.alpha
     json_response(@businesses)
   end
 
   def clothing
-    @businesses = Business.clothing
+    @businesses = Business.clothing.alpha
     json_response(@businesses)
   end
 
   def design
-    @businesses = Business.design
+    @businesses = Business.design.alpha
     json_response(@businesses)
   end
 
   def publishing
-    @businesses = Business.publishing
+    @businesses = Business.publishing.alpha
     json_response(@businesses)
   end
 

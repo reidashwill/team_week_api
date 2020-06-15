@@ -7,5 +7,11 @@ class Business < ApplicationRecord
   scope :design, -> { where(category: 'design') }
   scope :publishing, -> { where(category: 'publishing') }
   scope :misc, -> { where(category: 'misc') }
+  scope :alpha, -> { order(name: :asc) }
 
 end
+
+# scope :ten_most_recent, -> { order(created_at: :desc).limit(10)}
+# scope :misc, -> { where(category: 'misc').order('name asc') }
+
+
