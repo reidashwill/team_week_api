@@ -1,6 +1,6 @@
 class Business < ApplicationRecord
 
-  scope :food_bev, -> { where(category: "food/bev" )}
+  scope :food, -> { where(category: "food/bev" )}
   scope :beauty, -> { where(category: 'beauty') }
   scope :healthcare, -> { where(category: 'healthcare') }
   scope :clothing, -> { where(category: 'clothing') }

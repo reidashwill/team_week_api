@@ -25,8 +25,8 @@ class BusinessesController < ApplicationController
     @business.destroy
   end
 
-  def food_bev
-    @businesses = Business.food_bev.alpha
+  def food
+    @businesses = Business.food.alpha
     json_response(@businesses)
   end
 
@@ -56,7 +56,7 @@ class BusinessesController < ApplicationController
   end
 
 
-  def  misc
+  def misc
     @businesses = Business.misc
     json_response(@businesses)
   end
