@@ -1,7 +1,7 @@
 class BusinessesController < ApplicationController
 
   def index
-    @businesses = Business.all.alpha
+    @businesses = Business.all.alpha.page params[:page]
     json_response(@businesses)
   end
 

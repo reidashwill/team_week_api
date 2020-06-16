@@ -1,4 +1,5 @@
 class Business < ApplicationRecord
+  paginates_per 35
 
   scope :food, -> { where(category: "food/bev" )}
   scope :beauty, -> { where(category: 'beauty') }
