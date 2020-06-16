@@ -43,14 +43,16 @@ As a user I would like to filter the businesses by their type (ie food/bev, heal
 * _navigate to the cloned directory and open in your text editor of choice to view code_
 
 * _from the terminal inside the cloned project directory, run the command bundle install to bundle and install all required gems._
-* _run the commands rake db:create, followed by rake db:migrate to configure the database on your machine_
+
+
+* _run the commands createdb blm_api, followed by psql blm < database_backup.sql and to set up the test database, run the command createdb -T blm_api blm_api_test_
 * _run the command rspec to run the included suite of tests_
 * _run the command rails s to start a local server_
 * _make calls to any of the endpoints described in the specs table either in the browser of your choice, or in postman_
 
 
 
-* _Similarly, make calls to any endpoint described in the specs table to the live deployment of the API here:_
+* _Similarly, make calls to any endpoint described in the specs table to the live deployment of the API here:https://warm-harbor-14009.herokuapp.com/[your endpoint here]_
 
 ## Known Bugs
 No known bugs at this time

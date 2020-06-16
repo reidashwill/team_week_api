@@ -1,0 +1,3 @@
+createdb blm_api
+psql blm < database_backup.sql
+createdb -T blm_api blm_api_test
