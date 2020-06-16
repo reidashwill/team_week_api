@@ -1,3 +1,4 @@
-createdb blm_api
-psql blm < database_backup.sql
-createdb -T blm_api blm_api_test
+createdb team_week_api_development
+psql team_week_api_development < database_backup.sql
+createdb team_week_api_test
+psql team_week_api_test < database_backup.sql
