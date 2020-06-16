@@ -45,7 +45,7 @@ As a user I would like to filter the businesses by their type (ie food/bev, heal
 * _from the terminal inside the cloned project directory, run the command bundle install to bundle and install all required gems._
 
 
-* _run the commands createdb blm_api, followed by psql blm < database_backup.sql and to set up the test database, run the command createdb -T blm_api blm_api_test_
+* _run the command ./db_script.txt to build the database on your machine_
 * _run the command rspec to run the included suite of tests_
 * _run the command rails s to start a local server_
 * _make calls to any of the endpoints described in the specs table either in the browser of your choice, or in postman_
