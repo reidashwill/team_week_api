@@ -1,4 +1,4 @@
-# Black Lives Matter Quotes API
+# BIPOC API
 
 
 #### By Austin Butler, Daniel Merys, Tyler Bowerman, Celeste Field & Reid Ashwill 
